@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(9, 0, 138);
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0px;
+    word-spacing: 10px;
+}
+
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+}
+
+.programmes{
+    width: 80%;
+    margin: 50px auto;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 70px;
+}
